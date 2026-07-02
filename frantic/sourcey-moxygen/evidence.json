@@ -1,0 +1,82 @@
+{
+  "schema": "frantic.sourcey_docs_evidence.v1",
+  "bounty": 46,
+  "claim": "Publish Sourcey docs for a second ecosystem",
+  "summary": "Validated a live Sourcey-generated documentation site for moxygen, a maintained MIT-licensed TypeScript/Node.js npm CLI and library, pinned to sourcey/moxygen commit 2f14cd8354247e27553ee0d8f4139d5095234e16 with public runx receipt evidence.",
+  "public_url": "https://0state.com/moxygen/docs",
+  "receipt_ref": "runx:receipt:sha256:607fd09d97ac383abc2e24680bc3c492cc37f31784119e2213bd6286647a3983",
+  "target": {
+    "name": "moxygen",
+    "repo": "https://github.com/sourcey/moxygen",
+    "pinned_commit": "2f14cd8354247e27553ee0d8f4139d5095234e16",
+    "commit_date": "2026-06-30T15:40:16+10:00",
+    "commit_subject": "ci: update workflow actions",
+    "license": "MIT",
+    "package": "moxygen@2.1.10",
+    "ecosystem": "TypeScript / Node.js npm CLI and documentation tooling"
+  },
+  "sourcey": {
+    "config_path": "docs/sourcey.config.ts",
+    "config_repo": "https://github.com/sourcey/moxygen/blob/2f14cd8354247e27553ee0d8f4139d5095234e16/docs/sourcey.config.ts",
+    "adapter": "Sourcey markdown site using sourcey defineConfig(), markdown() navigation groups, GitHub edit links, and static generated pages.",
+    "command_or_config": "docs/package.json defines site:build as `sourcey build -o ../dist`; docs/sourcey.config.ts sets repo, editBranch, editBasePath, navigation groups, GitHub/npm navbar links, and prettyUrls strip.",
+    "durable_host": "0state.com/moxygen/docs, linked from the moxygen product page and Sourcey examples; not a personal github.io throwaway host."
+  },
+  "validation": {
+    "runx_version": "runx-cli 0.6.15",
+    "runx_command": "npx -y @runxhq/cli@0.6.15 skill work/sourcey-moxygen-validation-skill check --input-json urls=[...] -i repo_url=https://github.com/sourcey/moxygen -i commit=2f14cd8354247e27553ee0d8f4139d5095234e16 -i license=MIT -i ecosystem=TypeScript / Node.js documentation tooling -i runx_version=runx-cli 0.6.15 -R work/runx-receipts/sourcey-moxygen-wsl2 -j",
+    "runx_status": "sealed",
+    "receipt_id": "sha256:607fd09d97ac383abc2e24680bc3c492cc37f31784119e2213bd6286647a3983",
+    "checked_urls": [
+      "https://0state.com/moxygen/docs",
+      "https://0state.com/moxygen/docs/quickstart",
+      "https://0state.com/moxygen/docs/cli-reference",
+      "https://0state.com/moxygen/docs/programmatic-api",
+      "https://0state.com/moxygen/docs/custom-templates",
+      "https://0state.com/moxygen/docs/grouping-modes"
+    ],
+    "result": "All checked URLs returned HTTP 200, included Sourcey markers, linked github.com/sourcey/moxygen, and showed generated navigation terms."
+  },
+  "page_list": [
+    "Introduction",
+    "Quickstart",
+    "Writing Doxygen",
+    "CLI Reference",
+    "Programmatic API",
+    "Custom Templates",
+    "Grouping Modes"
+  ],
+  "documented_concepts": [
+    "npm package installation",
+    "moxygen CLI entry point",
+    "Doxygen XML input directory",
+    "groups output mode",
+    "classes output mode",
+    "pages output mode",
+    "output filename pattern with %s",
+    "anchors option",
+    "htmlAnchors behavior",
+    "language option",
+    "custom templates directory",
+    "source-root/source URL mapping",
+    "programmatic run() API",
+    "programmatic generate() API",
+    "loadIndex parser export",
+    "default filters",
+    "Handlebars template rendering",
+    "grouping modes for file-level and explicit Doxygen groups",
+    "example bicycle/mountain/racing module workflow"
+  ],
+  "observations": [
+    "runx --version: runx-cli 0.6.15",
+    "Ecosystem: TypeScript / Node.js npm CLI and library, distinct from the Go and C++ Sourcey docs proofs previously visible in accepted Frantic work.",
+    "Repo: https://github.com/sourcey/moxygen at commit 2f14cd8354247e27553ee0d8f4139d5095234e16, dated 2026-06-30.",
+    "License: MIT, confirmed from both package.json and LICENCE.",
+    "Adapter/config: docs/sourcey.config.ts uses Sourcey defineConfig(), markdown() groups, repo/edit links, prettyUrls strip, and GitHub/npm navbar links.",
+    "Command/config evidence: docs/package.json exposes site:build as `sourcey build -o ../dist`; package.json exposes moxygen as an npm binary and typed module.",
+    "Page list: Introduction, Quickstart, Writing Doxygen, CLI Reference, Programmatic API, Custom Templates, and Grouping Modes.",
+    "Public URL: https://0state.com/moxygen/docs returned HTTP 200 and included generated navigation plus a Sourcey build marker.",
+    "Durable host: the docs are on 0state.com/moxygen/docs and linked from the moxygen project/product page, not a personal or throwaway host.",
+    "Gaps: the live site emphasizes guide/config/API usage pages and source edit links; it is not a full TypeScript symbol-reference tab."
+  ]
+}

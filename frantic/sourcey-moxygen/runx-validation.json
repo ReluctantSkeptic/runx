@@ -1,0 +1,405 @@
+{
+  "closure": {
+    "closed_at": "2026-07-02T04:47:35.554Z",
+    "disposition": "closed",
+    "reason_code": "process_closed",
+    "summary": "cli-tool check completed"
+  },
+  "execution": {
+    "exit_code": 0,
+    "skill_claim": {
+      "commit": "2f14cd8354247e27553ee0d8f4139d5095234e16",
+      "ecosystem": "TypeScript / Node.js documentation tooling",
+      "license": "MIT",
+      "observations": [
+        "runx --version: runx-cli 0.6.15",
+        "ecosystem: TypeScript / Node.js documentation tooling",
+        "repo: https://github.com/sourcey/moxygen",
+        "pinned commit: 2f14cd8354247e27553ee0d8f4139d5095234e16",
+        "license: MIT",
+        "checked 6 public docs URLs",
+        "all fetched pages returned 2xx: true",
+        "Sourcey marker present on all pages: true",
+        "moxygen repository link present on all pages: true",
+        "generated navigation terms present on all pages: true"
+      ],
+      "ok": true,
+      "pages": [
+        {
+          "bytes": 24767,
+          "final_url": "https://0state.com/moxygen/docs",
+          "has_navigation": true,
+          "has_repo_link": true,
+          "has_sourcey_marker": true,
+          "status": 200,
+          "title": "Introduction — moxygen",
+          "url": "https://0state.com/moxygen/docs"
+        },
+        {
+          "bytes": 24767,
+          "final_url": "https://0state.com/moxygen/docs/quickstart",
+          "has_navigation": true,
+          "has_repo_link": true,
+          "has_sourcey_marker": true,
+          "status": 200,
+          "title": "Introduction — moxygen",
+          "url": "https://0state.com/moxygen/docs/quickstart"
+        },
+        {
+          "bytes": 24767,
+          "final_url": "https://0state.com/moxygen/docs/cli-reference",
+          "has_navigation": true,
+          "has_repo_link": true,
+          "has_sourcey_marker": true,
+          "status": 200,
+          "title": "Introduction — moxygen",
+          "url": "https://0state.com/moxygen/docs/cli-reference"
+        },
+        {
+          "bytes": 24767,
+          "final_url": "https://0state.com/moxygen/docs/programmatic-api",
+          "has_navigation": true,
+          "has_repo_link": true,
+          "has_sourcey_marker": true,
+          "status": 200,
+          "title": "Introduction — moxygen",
+          "url": "https://0state.com/moxygen/docs/programmatic-api"
+        },
+        {
+          "bytes": 24767,
+          "final_url": "https://0state.com/moxygen/docs/custom-templates",
+          "has_navigation": true,
+          "has_repo_link": true,
+          "has_sourcey_marker": true,
+          "status": 200,
+          "title": "Introduction — moxygen",
+          "url": "https://0state.com/moxygen/docs/custom-templates"
+        },
+        {
+          "bytes": 24767,
+          "final_url": "https://0state.com/moxygen/docs/grouping-modes",
+          "has_navigation": true,
+          "has_repo_link": true,
+          "has_sourcey_marker": true,
+          "status": 200,
+          "title": "Introduction — moxygen",
+          "url": "https://0state.com/moxygen/docs/grouping-modes"
+        }
+      ],
+      "public_url": "https://0state.com/moxygen/docs",
+      "repo_url": "https://github.com/sourcey/moxygen",
+      "runx_version": "runx-cli 0.6.15",
+      "schema": "sourcey.docs_live_check.v1"
+    },
+    "stderr": "",
+    "stdout": "{\n  \"schema\": \"sourcey.docs_live_check.v1\",\n  \"ok\": true,\n  \"repo_url\": \"https://github.com/sourcey/moxygen\",\n  \"commit\": \"2f14cd8354247e27553ee0d8f4139d5095234e16\",\n  \"license\": \"MIT\",\n  \"ecosystem\": \"TypeScript / Node.js documentation tooling\",\n  \"runx_version\": \"runx-cli 0.6.15\",\n  \"public_url\": \"https://0state.com/moxygen/docs\",\n  \"pages\": [\n    {\n      \"url\": \"https://0state.com/moxygen/docs\",\n      \"status\": 200,\n      \"final_url\": \"https://0state.com/moxygen/docs\",\n      \"bytes\": 24767,\n      \"title\": \"Introduction — moxygen\",\n      \"has_sourcey_marker\": true,\n      \"has_repo_link\": true,\n      \"has_navigation\": true\n    },\n    {\n      \"url\": \"https://0state.com/moxygen/docs/quickstart\",\n      \"status\": 200,\n      \"final_url\": \"https://0state.com/moxygen/docs/quickstart\",\n      \"bytes\": 24767,\n      \"title\": \"Introduction — moxygen\",\n      \"has_sourcey_marker\": true,\n      \"has_repo_link\": true,\n      \"has_navigation\": true\n    },\n    {\n      \"url\": \"https://0state.com/moxygen/docs/cli-reference\",\n      \"status\": 200,\n      \"final_url\": \"https://0state.com/moxygen/docs/cli-reference\",\n      \"bytes\": 24767,\n      \"title\": \"Introduction — moxygen\",\n      \"has_sourcey_marker\": true,\n      \"has_repo_link\": true,\n      \"has_navigation\": true\n    },\n    {\n      \"url\": \"https://0state.com/moxygen/docs/programmatic-api\",\n      \"status\": 200,\n      \"final_url\": \"https://0state.com/moxygen/docs/programmatic-api\",\n      \"bytes\": 24767,\n      \"title\": \"Introduction — moxygen\",\n      \"has_sourcey_marker\": true,\n      \"has_repo_link\": true,\n      \"has_navigation\": true\n    },\n    {\n      \"url\": \"https://0state.com/moxygen/docs/custom-templates\",\n      \"status\": 200,\n      \"final_url\": \"https://0state.com/moxygen/docs/custom-templates\",\n      \"bytes\": 24767,\n      \"title\": \"Introduction — moxygen\",\n      \"has_sourcey_marker\": true,\n      \"has_repo_link\": true,\n      \"has_navigation\": true\n    },\n    {\n      \"url\": \"https://0state.com/moxygen/docs/grouping-modes\",\n      \"status\": 200,\n      \"final_url\": \"https://0state.com/moxygen/docs/grouping-modes\",\n      \"bytes\": 24767,\n      \"title\": \"Introduction — moxygen\",\n      \"has_sourcey_marker\": true,\n      \"has_repo_link\": true,\n      \"has_navigation\": true\n    }\n  ],\n  \"observations\": [\n    \"runx --version: runx-cli 0.6.15\",\n    \"ecosystem: TypeScript / Node.js documentation tooling\",\n    \"repo: https://github.com/sourcey/moxygen\",\n    \"pinned commit: 2f14cd8354247e27553ee0d8f4139d5095234e16\",\n    \"license: MIT\",\n    \"checked 6 public docs URLs\",\n    \"all fetched pages returned 2xx: true\",\n    \"Sourcey marker present on all pages: true\",\n    \"moxygen repository link present on all pages: true\",\n    \"generated navigation terms present on all pages: true\"\n  ]\n}",
+    "structured_output": {
+      "commit": "2f14cd8354247e27553ee0d8f4139d5095234e16",
+      "ecosystem": "TypeScript / Node.js documentation tooling",
+      "license": "MIT",
+      "observations": [
+        "runx --version: runx-cli 0.6.15",
+        "ecosystem: TypeScript / Node.js documentation tooling",
+        "repo: https://github.com/sourcey/moxygen",
+        "pinned commit: 2f14cd8354247e27553ee0d8f4139d5095234e16",
+        "license: MIT",
+        "checked 6 public docs URLs",
+        "all fetched pages returned 2xx: true",
+        "Sourcey marker present on all pages: true",
+        "moxygen repository link present on all pages: true",
+        "generated navigation terms present on all pages: true"
+      ],
+      "ok": true,
+      "pages": [
+        {
+          "bytes": 24767,
+          "final_url": "https://0state.com/moxygen/docs",
+          "has_navigation": true,
+          "has_repo_link": true,
+          "has_sourcey_marker": true,
+          "status": 200,
+          "title": "Introduction — moxygen",
+          "url": "https://0state.com/moxygen/docs"
+        },
+        {
+          "bytes": 24767,
+          "final_url": "https://0state.com/moxygen/docs/quickstart",
+          "has_navigation": true,
+          "has_repo_link": true,
+          "has_sourcey_marker": true,
+          "status": 200,
+          "title": "Introduction — moxygen",
+          "url": "https://0state.com/moxygen/docs/quickstart"
+        },
+        {
+          "bytes": 24767,
+          "final_url": "https://0state.com/moxygen/docs/cli-reference",
+          "has_navigation": true,
+          "has_repo_link": true,
+          "has_sourcey_marker": true,
+          "status": 200,
+          "title": "Introduction — moxygen",
+          "url": "https://0state.com/moxygen/docs/cli-reference"
+        },
+        {
+          "bytes": 24767,
+          "final_url": "https://0state.com/moxygen/docs/programmatic-api",
+          "has_navigation": true,
+          "has_repo_link": true,
+          "has_sourcey_marker": true,
+          "status": 200,
+          "title": "Introduction — moxygen",
+          "url": "https://0state.com/moxygen/docs/programmatic-api"
+        },
+        {
+          "bytes": 24767,
+          "final_url": "https://0state.com/moxygen/docs/custom-templates",
+          "has_navigation": true,
+          "has_repo_link": true,
+          "has_sourcey_marker": true,
+          "status": 200,
+          "title": "Introduction — moxygen",
+          "url": "https://0state.com/moxygen/docs/custom-templates"
+        },
+        {
+          "bytes": 24767,
+          "final_url": "https://0state.com/moxygen/docs/grouping-modes",
+          "has_navigation": true,
+          "has_repo_link": true,
+          "has_sourcey_marker": true,
+          "status": 200,
+          "title": "Introduction — moxygen",
+          "url": "https://0state.com/moxygen/docs/grouping-modes"
+        }
+      ],
+      "public_url": "https://0state.com/moxygen/docs",
+      "repo_url": "https://github.com/sourcey/moxygen",
+      "runx_version": "runx-cli 0.6.15",
+      "schema": "sourcey.docs_live_check.v1"
+    }
+  },
+  "payload": {
+    "commit": "2f14cd8354247e27553ee0d8f4139d5095234e16",
+    "ecosystem": "TypeScript / Node.js documentation tooling",
+    "license": "MIT",
+    "observations": [
+      "runx --version: runx-cli 0.6.15",
+      "ecosystem: TypeScript / Node.js documentation tooling",
+      "repo: https://github.com/sourcey/moxygen",
+      "pinned commit: 2f14cd8354247e27553ee0d8f4139d5095234e16",
+      "license: MIT",
+      "checked 6 public docs URLs",
+      "all fetched pages returned 2xx: true",
+      "Sourcey marker present on all pages: true",
+      "moxygen repository link present on all pages: true",
+      "generated navigation terms present on all pages: true"
+    ],
+    "ok": true,
+    "pages": [
+      {
+        "bytes": 24767,
+        "final_url": "https://0state.com/moxygen/docs",
+        "has_navigation": true,
+        "has_repo_link": true,
+        "has_sourcey_marker": true,
+        "status": 200,
+        "title": "Introduction — moxygen",
+        "url": "https://0state.com/moxygen/docs"
+      },
+      {
+        "bytes": 24767,
+        "final_url": "https://0state.com/moxygen/docs/quickstart",
+        "has_navigation": true,
+        "has_repo_link": true,
+        "has_sourcey_marker": true,
+        "status": 200,
+        "title": "Introduction — moxygen",
+        "url": "https://0state.com/moxygen/docs/quickstart"
+      },
+      {
+        "bytes": 24767,
+        "final_url": "https://0state.com/moxygen/docs/cli-reference",
+        "has_navigation": true,
+        "has_repo_link": true,
+        "has_sourcey_marker": true,
+        "status": 200,
+        "title": "Introduction — moxygen",
+        "url": "https://0state.com/moxygen/docs/cli-reference"
+      },
+      {
+        "bytes": 24767,
+        "final_url": "https://0state.com/moxygen/docs/programmatic-api",
+        "has_navigation": true,
+        "has_repo_link": true,
+        "has_sourcey_marker": true,
+        "status": 200,
+        "title": "Introduction — moxygen",
+        "url": "https://0state.com/moxygen/docs/programmatic-api"
+      },
+      {
+        "bytes": 24767,
+        "final_url": "https://0state.com/moxygen/docs/custom-templates",
+        "has_navigation": true,
+        "has_repo_link": true,
+        "has_sourcey_marker": true,
+        "status": 200,
+        "title": "Introduction — moxygen",
+        "url": "https://0state.com/moxygen/docs/custom-templates"
+      },
+      {
+        "bytes": 24767,
+        "final_url": "https://0state.com/moxygen/docs/grouping-modes",
+        "has_navigation": true,
+        "has_repo_link": true,
+        "has_sourcey_marker": true,
+        "status": 200,
+        "title": "Introduction — moxygen",
+        "url": "https://0state.com/moxygen/docs/grouping-modes"
+      }
+    ],
+    "public_url": "https://0state.com/moxygen/docs",
+    "repo_url": "https://github.com/sourcey/moxygen",
+    "runx_version": "runx-cli 0.6.15",
+    "schema": "sourcey.docs_live_check.v1"
+  },
+  "receipt": {
+    "acts": [
+      {
+        "artifact_refs": [],
+        "closure": {
+          "closed_at": "2026-07-02T04:47:35.554Z",
+          "disposition": "closed",
+          "reason_code": "process_exit",
+          "summary": "cli-tool exited successfully"
+        },
+        "criterion_bindings": [
+          {
+            "criterion_id": "process_exit",
+            "evidence_refs": [],
+            "status": "verified",
+            "summary": "cli-tool exited successfully",
+            "verification_refs": []
+          }
+        ],
+        "form": "observation",
+        "id": "act_check",
+        "intent": {
+          "constraints": [],
+          "derived_from": [],
+          "legitimacy": "Runtime graph execution was admitted by the local harness",
+          "purpose": "Run graph step check",
+          "success_criteria": [
+            {
+              "criterion_id": "process_exit",
+              "required": true,
+              "statement": "cli-tool exits successfully"
+            }
+          ]
+        },
+        "source_refs": [],
+        "summary": "Executed graph step check",
+        "target_refs": []
+      }
+    ],
+    "authority": {
+      "actor_ref": {
+        "type": "principal",
+        "uri": "runx:principal:local_runtime"
+      },
+      "attenuation": {
+        "parent_authority_ref": null,
+        "subset_proof": null
+      },
+      "authority_proof_refs": [],
+      "enforcement": {
+        "profile_hash": "sha256:635fdb0a7eef93911e3c6bd0b25b5e635edba32e0259133042b3a5f1fb19394e",
+        "redaction_refs": [],
+        "setup_refs": [],
+        "teardown_refs": []
+      },
+      "grant_refs": [],
+      "scope_refs": [],
+      "terms": []
+    },
+    "canonicalization": "runx.receipt.c14n.v1",
+    "created_at": "2026-07-02T04:47:35.554Z",
+    "decisions": [
+      {
+        "artifact_refs": [],
+        "choice": "open",
+        "closure": null,
+        "decision_id": "dec_check",
+        "inputs": {
+          "opportunity_refs": [],
+          "selection_ref": null,
+          "signal_refs": [],
+          "target_ref": null
+        },
+        "justification": {
+          "evidence_refs": [],
+          "summary": "runtime graph planner selected this node"
+        },
+        "proposed_intent": {
+          "constraints": [],
+          "derived_from": [],
+          "legitimacy": "Local graph execution requested this node",
+          "purpose": "Open runtime node check",
+          "success_criteria": []
+        },
+        "selected_act_id": "act_check",
+        "selected_harness_ref": null
+      }
+    ],
+    "digest": "sha256:3653e8e1e352071c3560ab0b286fcb12e07e33eddc4c3419e840cf861488a3de",
+    "id": "sha256:607fd09d97ac383abc2e24680bc3c492cc37f31784119e2213bd6286647a3983",
+    "idempotency": {
+      "content_hash": "sha256:run_check_80a2011c8635-check-content",
+      "intent_key": "sha256:run_check_80a2011c8635-check-intent",
+      "trigger_fingerprint": "sha256:run_check_80a2011c8635-check-trigger"
+    },
+    "issuer": {
+      "kid": "sourcey-moxygen-live-check-key",
+      "public_key_sha256": "sha256:47eab6059d6e23355936d046d28f6844f1863d26ec053405d9cd88811a4581ee",
+      "type": "hosted"
+    },
+    "lineage": {
+      "children": [],
+      "sync": []
+    },
+    "schema": "runx.receipt.v1",
+    "seal": {
+      "closed_at": "2026-07-02T04:47:35.554Z",
+      "criteria": [
+        {
+          "criterion_id": "process_exit",
+          "evidence_refs": [],
+          "status": "verified",
+          "summary": "cli-tool exited successfully",
+          "verification_refs": []
+        }
+      ],
+      "disposition": "closed",
+      "last_observed_at": "2026-07-02T04:47:35.554Z",
+      "reason_code": "process_closed",
+      "summary": "cli-tool check completed"
+    },
+    "signals": [],
+    "signature": {
+      "alg": "Ed25519",
+      "value": "base64:WvT1akUn4nsBWe7MEZ5ZrWP1giWgCXOxL0LDSp3p0ww5B_7YPUcvJiNZwRsH0X89oeHeoHEtQRKqOWD3H9wdBw"
+    },
+    "subject": {
+      "commitments": [],
+      "kind": "skill",
+      "ref": {
+        "type": "harness",
+        "uri": "hrn_run_check_80a2011c8635_check"
+      }
+    }
+  },
+  "receipt_id": "sha256:607fd09d97ac383abc2e24680bc3c492cc37f31784119e2213bd6286647a3983",
+  "run_id": "run_check_80a2011c8635",
+  "schema": "runx.skill_run.v1",
+  "skill_name": "sourcey-docs-live-check",
+  "status": "sealed"
+}
