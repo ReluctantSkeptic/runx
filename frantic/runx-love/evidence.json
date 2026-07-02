@@ -1,0 +1,27 @@
+{
+  "claim_type": "public_walkthrough_readme",
+  "public_url": "https://github.com/ReluctantSkeptic/runx/blob/runx-love-walkthrough/frantic/runx-love/README.md",
+  "runx_link_found": true,
+  "summary": "Published a public README walkthrough showing how to inspect and smoke-run a runx registry skill, with links to runx.ai, the upstream runx repository, the registry page, and the related pull request.",
+  "audience": "Developers and maintainers evaluating portable skills, governed execution, and receipt-verifiable agent workflows.",
+  "why_allowed": "The artifact is in the operator's own public fork as a relevant README/example. It does not post into a third-party community, request reciprocal engagement, or use star-only/screenshots-only evidence.",
+  "observations": [
+    {
+      "name": "venue",
+      "value": "Public GitHub README/example in ReluctantSkeptic/runx on branch runx-love-walkthrough."
+    },
+    {
+      "name": "runx_project_links",
+      "value": "The README links to https://runx.ai and https://github.com/runxhq/runx."
+    },
+    {
+      "name": "specific_support_action",
+      "value": "The README explains the escalation-judge registry artifact, the install/run smoke path, the public PR, and why runx receipts and pinned source are useful."
+    },
+    {
+      "name": "not_star_proof",
+      "value": "No star screenshot, reciprocal star request, generic duplicate post, or private-only evidence is submitted."
+    }
+  ],
+  "prepared_at": "2026-07-02T04:26:00Z"
+}
